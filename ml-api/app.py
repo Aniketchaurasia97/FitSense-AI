@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 app = Flask(__name__)
-CORS(app, origins=["https://fit-sense-ai.vercel.app", "http://localhost:3000"])
+CORS(app, origins=["https://fit-sense-ai-kappa.vercel.app/", "http://localhost:3000"])
 
 # Load trained models
 best_workout_classifier = joblib.load("fitinsight_workout_model.joblib")
