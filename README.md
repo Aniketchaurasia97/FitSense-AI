@@ -54,13 +54,15 @@ A custom dataset is used containing:
 ## 🚀 Installation
 
 ### Frontend
-
+  ```bash
 cd project
 npm install
 npm run dev
-
+```
 ### Backend
-
+```bash
 cd ml-api
 pip install -r requirements.txt
 uvicorn main:app --reload
+ ```
+     
